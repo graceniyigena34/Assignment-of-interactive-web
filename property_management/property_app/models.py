@@ -52,4 +52,4 @@ class Lease(models.Model):
     rent_Ammount = models.DecimalField(max_digits=8,decimal_places=2)
     def __str__(self):
         return f'Lease for {self.tenant.name} - Unit {self.unit.unit_number}'
-
+  
